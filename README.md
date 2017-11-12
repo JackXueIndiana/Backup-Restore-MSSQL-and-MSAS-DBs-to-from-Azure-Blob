@@ -1,0 +1,2 @@
+# Backup-Restore-MSSQL-and-MSAS-DBs-to-from-Azure-Blob
+Here we show you how to backup their PaaS MSSQL 2012 DB as well as their MSAS (Analysis Server) tabular DB (aka workspace DB) into Azure blob. We looked around and found: • MSSQL o You can back up a db to blob through  GUI, T-SQL, Powershell o All these three methods actually use objects Microsoft.SqlServer.Management.Smo.Server and Microsoft.SqlServer.Management.Smo.Backup, which allow you set up URL and credential.
